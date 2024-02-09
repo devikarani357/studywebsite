@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header section styling */
+.header {
+    width: 100vw;
+    height: auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border:2px solid black;
+    background-color: rgba(137, 43, 226, 0.521);
+}
+.part1{
+    display: flex;
+    align-items: center;
+    justify-self:center;
+    margin: 18px;
+}
+.part1 img{
+    height:130px;
+    width:230px;
+    margin-right: 20px;
+}
+.part2 a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+.part3 button{
+    margin-right: 80px;
+    padding: 12px;
+    background-color: rgba(0, 0, 255, 0.726);
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* hero section styling */
+.hero-section{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 28px;
+}
+.hero1-para p{
+    color:blue;
+    margin: auto;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.hero2-para h1{
+   margin-top: 18px;
+}
+.hero3-para{
+    margin-top: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#button1{
+    padding:11px;
+    margin-right: 178px;
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+}
+#button2{
+    padding: 11px;
+    border-radius: 8px;
+    background-color: black;
+    color:#fff;
+}
+#button1,#button2:hover{
+    cursor: pointer;
+}
+.second-side img{
+    height:500px;
+    width:500px;
+}
+.hero-button h1{
+    text-align: center;
+    margin-top: 18px;
+}
+.companies{
+    width:780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+    border:4px solid black;
+    padding: 24px;
+    margin-left: 259px;
+}
+.companies i,a{
+    margin-right: 29px;
+    text-decoration: none;
+    color: black;
+}
+.companies:hover{
+    background-color: rgba(165, 42, 42, 0.562);
+}
+/*cards section styling*/
+.cards-section{
+    background-color:rgba(128, 128, 128, 0.26);
+    margin-top: 2rem;
+}
+.writing-card{
+    margin-top: 2rem;
+}
+.writing1 h1{
+    text-align: center;
+    padding: 20px;
+}
+.writing2 p{
+    text-align: center;
+    padding: 4px;
+}
+.grid-card{
+    display: grid;
+    gap:1.5rem;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px 190px;
+}
+.grid1{
+    background-color: darkcyan;
+    height:200px;
+    width:400px;
+}
+.img1 img{
+    width: 70px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 170px;
+}
+.card-heading{
+    margin-left: 100px;
+    margin-bottom: 1rem;
+}
+.img-para{
+    padding:1rem;
+}
+.grid2{
+    background-color:darkcyan;
+    height:200px;
+    width:400px;
+}
+.grid3{
+    background-color: darkcyan;
+    height:200px;
+    width:400px;
+}
+.grid4{
+    background-color: darkcyan;
+    height:200px;
+    width:400px;
+}
+.grid5{
+    background-color: darkcyan;
+    height:200px;
+    width:400px;
+}
+.grid6{
+    background-color: darkcyan;
+    height:200px;
+    width:400px;
+}
+/* Testimonial Section */
+.testimonial{
+    border:2px solid black;
+    margin-top: 1.9rem;
+}
+.header-testimonial h2{
+    margin-left: 30rem;
+    padding:1.4rem;
+}
+.cards-testimonial{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card1-testimonial{
+    border:1px solid black;
+    padding:2rem;
+   margin:2rem;
+}
+.testi-para p{
+    font-size: 1rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+}
+.img-paras img{
+   width:80px;
+   height:50px;
+   margin-left: 70px;
+   padding: 0.5rem;
+}
+.person-name h4{
+    color:blue;
+    text-align: center;
+}
+.card2-testimonial{
+    border:1px solid black;
+    padding:2rem;
+   margin:2rem;
+}
+.card3-testimonial{
+    border:1px solid black;
+    padding:2rem;
+   margin:2rem;
+}
+/* news letter section */
+.newsletter{
+    margin-top: 2rem;
+    margin-left:14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.747);
+    width:900px;
+}
+.image-news img{
+    width:28rem;
+}
+.content-news{
+    margin-left: 2rem;
+}
+.news-header h3{
+    color:blue;
+    font-size: 35px;
+}
+.email-border input{
+    margin-top: 0.5rem;
+    width: 152px;
+}
+.email-border button{
+    padding: 2px;
+    width: 52px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 255, 0.74);
+    cursor: pointer;
+}
+.news-privacy a{
+    color:blue;
+    text-decoration: underline;
+}
+.news-privacy p{
+    font-size: 18px;
+    margin-top: 1rem;
+}
+/* footer section */
